@@ -3,7 +3,7 @@
 
 int main(int argc, const char **argv) {
   if (argc != 3) {
-    std::cerr << "Expected exactly one argument: " << argv[0]
+    std::cerr << "Expected exactly two arguments: " << argv[0]
               << " <large> <sub>" << std::endl;
     return -1;
   }
